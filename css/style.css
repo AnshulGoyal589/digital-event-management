@@ -4,7 +4,7 @@
     --main-color:#3867d6;
 }
 
-*{
+*{  
     font-family: 'Nunito', sans-serif;
     margin:0; padding:0;
     box-sizing: border-box;
@@ -80,6 +80,7 @@ section{
     align-items: center;
     justify-content: space-between;
     padding:1.5rem 9%;
+    width: 100vw;
 }
 
 .header .logo{
@@ -317,11 +318,17 @@ section{
     padding-right: .5rem;
 }
 
+/* .reivew{
+    background-color: red;
+} */
+
 .reivew .box{
     border-radius: .5rem;
     background: #333;
     padding:2rem;
     position: relative;
+    left: 200px;
+    /* width: 25% !important; */
 }
 
 .reivew .box .fa-quote-right{
@@ -366,6 +373,9 @@ section{
     max-width: 70rem;
     margin:1rem auto;
     text-align: center;
+}
+.contact .inputBox input{
+    padding: 10px !important;
 }
 
 .contact form .inputBox{
